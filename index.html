@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<p class="name">To Do List</p>  <!-- название в центре страницы-->
+
+
+   <div class="new-task">     <!--блок, в котором мы вводим название и описание задачи-->
+     <p class="question">Что нужно сделать?</p>
+       <input id="inputTitle" class="inputTitle" placeholder="Название задачи" type="text">
+       <input id="inputDescription" class="inputDescription" placeholder="Описание" type="text">
+       <button id="saveButton">Save</button>
+       
+   </div>
+
+        <div class="tasks"> <!-- место на странице, где будут собраны таски-->
+ 
+        </div>
+    </div>
+<!--выводим количество задач-->
+<div>
+    Total:
+<span id="total"></span>
+</div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

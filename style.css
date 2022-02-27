@@ -1,0 +1,94 @@
+
+body {
+    background: rgb(163,251,247);
+    background: linear-gradient(90deg, rgba(163,251,247,1) 0%, rgba(123,216,228,0.8029586834733894) 50%, rgba(252,255,254,1) 100%);
+}
+
+.name{
+    margin-left: 800px;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    margin-bottom: 0px;
+}
+
+.new-task{
+    width: 250px;
+    heigh: 200px;
+    margin-left: 755px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 3px solid #899af0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 0 10px #000;
+    background: rgb(152,169,255);
+    background: linear-gradient(90deg, rgba(152,169,255,1) 0%, rgba(181,202,242,0.8029586834733894) 48%, rgba(252,255,254,1) 100%);
+}
+
+
+
+
+.inputTitle, .inputDescription{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+
+.question{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+button{
+    color: white;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 85px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task{
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    width: 700px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px #000;
+    
+}
+
+.total{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-stretch: expanded; 
+    margin-left: 200px;
+    margin-top: 100px;
+}
